@@ -7,7 +7,6 @@ const rateRouter = require('./routes/rateRoutes');
 const app = express();
 
 // 1) MIDDLEWARES
-
 app.use(express.json());
 app.use(express.static(`${__dirname}/public`));
 app.use(cors());
