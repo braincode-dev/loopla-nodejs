@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Lato';
+}
+
+.header {
+    background-color: #395880;
+}
+
+.header__logo {
+    padding: 10px;
+}
+
+.header__logo img {
+    width: 100%;
+    max-width: 150px;
+    margin: 10px;
+    display: block;
+}
+
+.footer {
+    background-color: #f7f7f7;
+    padding: 20px 15px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
+
+.container {
+    padding-bottom: 90px;
+    padding: 40px 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.container h2 {
+    margin-top: 25px;
+}
+
+.container p {
+    margin-bottom: 5px;
+}
+
+.container img {
+    width: 100%;
+    max-width: 150px;
+    margin: 50px auto;
+    display: block;
+}

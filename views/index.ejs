@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,700" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.ico" />
+    <title><%= title  %></title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img src="img/logo-white.svg" alt="Natours logo" />
+      </div>
+    </header>
+
+    <div class="container">
+      <h2>Your App is running...</h2>
+      <p>Status: <%= status %> | Port: <%= port %></p>
+      <a href="/api/v1/rates">Get all rates from rates API</a>
+      <img src="/img/home-animation.gif" alt="Node animation">
+    </div>
+
+    <div class="footer">
+      <p class="footer__copyright">
+        &copy; by Oleksii Kizyma for Loopla. All rights reserved.
+      </p>
+    </div>
+  </body>
+</html>
